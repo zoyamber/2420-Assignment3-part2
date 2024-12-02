@@ -71,8 +71,8 @@ Our next task will be to create a load balancer so we can balance traffic betwee
     - Select **Regional** 
     - Under datacenter region, choose **San Francisco sfo3** 
 
-    > [!NOTE]
-    > This is the same region we selected for our two droplet servers
+ > [!NOTE]
+ > This is the same region we selected for our two droplet servers
 
     - Select **External (Public)** 
 
