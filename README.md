@@ -11,7 +11,7 @@ In this part of the assignment, we will build upon the skills learned in part 1 
 
 **Task 1:** Server Setup
 
-**Task 2:** Load Balancer
+**Task 2:** Create Load Balancer
 
 **Task 3:** Update Starter Code
 
@@ -46,7 +46,11 @@ The first task is to create two new digital ocean droplets with the tag `web`. T
 **Step 8:** Lastly, under tags, type in the tag `web` and press the blue `Create Droplet` button
 
 
+
+
 Verify that the droplets are running with the image below. A green dot should be beside both the names.
+
+
 
 
 **img**
@@ -54,3 +58,42 @@ Verify that the droplets are running with the image below. A green dot should be
 
 
 ## **Task 2:** Creating a load balancer
+
+
+Our next task will be to create a load balancer so we can balance traffic between the two servers we created in step 1.
+
+
+**Step 1:** Find and select the `create load balancer` button
+
+
+**Step 2:** Now we're going to configure the load balancer to meet these requirements:
+
+    - Select **Regional** 
+    - Under datacenter region, choose **San Francisco sfo3** 
+
+    > [!NOTE]
+    > This is the same region we selected for our two droplet servers
+
+    - Select **External (Public)** 
+
+
+**Step 3:** Next, we want to connect our droplet to `web` we created in task 1 
+
+
+**Step 4:** Under forwarding rules, Make sure the protocol is `HTTP` and the port is `80`
+
+
+**Step 5:** Create a name, and select the green `Create Load Balancer` button
+
+
+
+To verify everything was done successfully, it should look like the image below:
+
+
+**img**
+
+
+
+## **Task 3:** Clone the Updated Starter Code
+
+
