@@ -68,13 +68,13 @@ Our next task will be to create a load balancer so we can balance traffic betwee
 
 **Step 2:** Now we're going to configure the load balancer to meet these requirements:
 
-    - Select **Regional** 
-    - Under datacenter region, choose **San Francisco sfo3** 
+ - Select **Regional** 
+ - Under datacenter region, choose **San Francisco sfo3** 
 
  > [!NOTE]
  > This is the same region we selected for our two droplet servers
 
-    - Select **External (Public)** 
+ - Select **External (Public)** 
 
 
 **Step 3:** Next, we want to connect our droplet to `web` we created in task 1 
